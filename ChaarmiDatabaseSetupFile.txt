@@ -1,0 +1,130 @@
+// DATABASE TABLES BEING CREATED
+// chrm_backend_master_user <= MOST IMPORTANT
+// chrm_plot_list <= SUPER IMPORTANT
+// chrm_user_login_activity <= IMPORTANT ANALYTICS
+// chrm_analytics
+// chrm_backend_password_reset_temp
+// chrm_backend_user_login_activity
+// chrm_code_data
+// chrm_common_land_data
+// chrm_land_list
+// chrm_local_system_settings
+// chrm_server_settings
+// chrm_user
+
+// SQL COMMANDS BELOW TO BUILD THE STRUCTURE
+
+// AFTER, GO TO INDEX FILE IN MY-ADMIN FOLDER AND GENERATE ADMIN USER TO MAKE THE ADMIN MASTER USER
+// BY UN-COMMENTING OUT THE MANUAL ADMIN CREATION LINE (EDIT IT) AND THEN PASTING THE RESULTING SQL STATEMENT
+// INTO PHPMYADMIN AND RUNNING IT
+
+CREATE TABLE `chrm_analytics` (
+  `type` varchar(255) DEFAULT NULL,
+  `internal_id` varchar(64) DEFAULT NULL,
+  `date_time` varchar(64) DEFAULT NULL,
+  `ip_address` varchar(64) DEFAULT NULL,
+  `country` varchar(128) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_backend_master_user` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `metamask_id` varchar(255) DEFAULT NULL,
+  `username` varchar(128) DEFAULT NULL,
+  `status` varchar(64) DEFAULT NULL,
+  `password_reset_status` varchar(1) DEFAULT NULL,
+  `user_type` varchar(64) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_backend_password_reset_temp` (
+  `email` varchar(255) NOT NULL,
+  `key_value` varchar(255) NOT NULL,
+  `expDate` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `chrm_backend_user_login_activity` (
+  `username` varchar(255) NOT NULL,
+  `key_value` varchar(255) NOT NULL,
+  `expDate` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_code_data` (
+  `id` varchar(64) DEFAULT NULL,
+  `code` blob DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_common_land_data` (
+  `metaverse_owner_internal_id` varchar(64) DEFAULT NULL,
+  `metaverse_creator_internal_id` varchar(64) DEFAULT NULL,
+  `road_model` varchar(64) DEFAULT NULL,
+  `water_model` varchar(64) DEFAULT NULL,
+  `tree_model` varchar(64) DEFAULT NULL,
+  `sky_material` varchar(64) DEFAULT NULL,
+  `fog_status` varchar(64) DEFAULT NULL,
+  `fog_distance` varchar(64) DEFAULT NULL,
+  `fog_color` varchar(64) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_land_list` (
+  `land_id` varchar(64) DEFAULT NULL,
+  `land_ground_texture_id` varchar(64) DEFAULT NULL,
+  `user_id_of_owner` varchar(64) DEFAULT NULL,
+  `plot_id` varchar(64) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_local_system_settings` (
+  `setting_name` varchar(255) DEFAULT NULL,
+  `setting_description` text DEFAULT NULL,
+  `setting_value` varchar(255) DEFAULT NULL,
+  `setting_additional_data` blob DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_plot_list` (
+  `plot_id` varchar(512) DEFAULT NULL,
+  `user_id_of_land_owner` varchar(512) DEFAULT NULL,
+  `user_id_of_land_creator` varchar(512) DEFAULT NULL,
+  `user_id_of_land_presenter` varchar(512) DEFAULT NULL,
+  `land_presenter_expiry_date` varchar(512) DEFAULT NULL,
+  `land_data_base_interior` mediumtext DEFAULT NULL,
+  `land_data_presenter_interior` mediumtext DEFAULT NULL,
+  `land_data_base_exterior` mediumtext DEFAULT NULL,
+  `land_data_presenter_exterior` mediumtext DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_server_settings` (
+  `setting_name` varchar(255) DEFAULT NULL,
+  `setting_description` varchar(512) DEFAULT NULL,
+  `setting_value` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_user` (
+  `internal_id` varchar(64) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `metamask_id` varchar(255) DEFAULT NULL,
+  `username` varchar(128) DEFAULT NULL,
+  `status` varchar(64) DEFAULT NULL,
+  `password_reset_status` varchar(1) DEFAULT NULL,
+  `user_type` varchar(64) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chrm_user_login_activity` (
+  `id` int(128) NOT NULL,
+  `guestname` varchar(255) DEFAULT NULL,
+  `guestemail` varchar(255) DEFAULT NULL,
+  `permission_to_email` varchar(50) DEFAULT NULL,
+  `date_time` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `chrm_backend_master_user`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `chrm_user_login_activity`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `chrm_backend_master_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE `chrm_user_login_activity`
+  MODIFY `id` int(128) NOT NULL AUTO_INCREMENT;

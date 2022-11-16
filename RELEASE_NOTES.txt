@@ -1,0 +1,80 @@
+v0.90b1 (16-Nov-2022)
+
+(FEATURE) FREE EDITION OF CHAARMI WORLDS NOW AVAILABLE!!!! Only two lands, genesis and ryina.
+(UPGRADE) PRO AND FREE Edition items now being separated within the objects system.
+(USAGE NOTE) All Chaarmi Galaxy Users MUST Enter a Username To Enter Experience
+(UPGRADE) Voice Chat Betterment and upgrading of voice system that works even better than the last system. Had to put a cap limit of 10 seconds per audio.
+(UPGRADE) Voice Chat Distance update (Doubled the distance for the audio rolloff)
+(UPGRADE) Voice Chat from VR to WebGL and Back again ALSO working!!
+(UPGRADE) Voice Chat in VR has Spatial 3D Audio!
+(UPGRADE) Voice Chat now no longer has delay by reducing time down to around 10 seconds cap limit
+(FEATURE) INSTA-JUMPS! Instantaneous style plot jumps with shorter times for loading (UPGRADE) System cleanup which use to freeze everything every 30 seconds now pushed to every 10 min to cleanup unused garbage collection
+(UPGRADE) Voice Chat 10 Second Visual and Auditory Timer Countdown Upgrade now is 10 Minutes long!
+(FEATURE) Added Auto-Generated Username To Enter Experience 
+(UPGRADE) Increased overall running speed of Chaarmi by 2X!!
+(FEATURE) Smooth scene and plot transitions to add to visual appeal!
+(BUG FIX) Voice chat was not working when plot jumping. Now fixed.
+(UPGRADE) Added new Ready Player Me LOD functionality to keep polys down to allow for more users!
+(MISTAKE FEATURE) This came about while trying to fix another solution, we now have QR Code generation capability right within Chaarmi. How we will use it is yet to be determined but we now have this full functionality to generate QR Codes and request our community to give us feedback on its use.
+(BUG FIX) Fixed UI bug in object selection window size (BACKEND EDITOR)
+(FEATURE) 16kb limit of world plot string now removed. Unlimited size plots can now be made restricted only to memory and hardware constraints
+(FEATURE) New export of plot string functionality added
+(FEATURE) New import of plot string functionality added
+(BUG FIX) Fixed clear button issue where the plot clearing did not clear the skybox as well
+(FEATURE) Added direct link to plot from backend editor so you can easily go right to the plot to test it out or share with others
+(UPGRADE) FIXED Text above head, including username, all points to player so it is not backwards
+(UPGRADE) Reduced total list of rows shown in backend to keep things fast in chaarmi backend for users
+
+v0.18b3 (16-Sep-2022)
+-(BUG FIX) Fixed bug with skybox where there is a LINE showing with any texture. Now fixed and fully seamless skyboxes (Please make sure the base texture is seamless as well - This is up to the end user)
+-(FEATURE) Ready Player Me Seamless Integration (Now end users do not need to go and get a GLB file link. They can change their avatar anytime right within the browser)
+-(FEATURE) New Loading experience showing Ready Player Me Character View
+-(FEATURE) Full Screen View within browser window so that user always gets the best highest experience
+-(NEW OBJECTS) Now 1,300 Objects! Added Indoor Movie Theatres, Relaxing Pavilion, Mega Cruise Ship, City Buildings and Brodway/Show Theatre
+-(BUG FIX) Fixed a major bug with skybox loading system and "Out of Memory" issue with WebGL on Browser
+-(UPGRADE) Shifted fullscreen button so it is now part of the internal UI
+-(UPGRADE) VR Mode UI Button Upgrade and flow upgrade using Oculus Quest 2
+
+v0.18b2 (06-Sep-2022)
+-Fixed regression bug of portal jumps loading in different locations
+-Added brand new Onsite Video functionality for Live Hybrid Events!
+-Added brand new Wedding Objects
+-Added brand new Party Objects
+-Added additional optimizations to system
+
+v0.18b1 (21-Aug-2022)
+-Fixed .htaccess issue for webm bug
+-Audio Fixed up
+-Fixed bug of double/triple loading of plots
+-Fixed bug of Camera distance not showing up
+-Fixed bug of freezing on browser
+-ReadyPlayerMe Link to open in new window
+-Now Links via OnClick open in new windows rather than the metaverse experience
+-Backend Editor Added Basic Delete Plot Capabilities (Must go through main system first)
+-Fix bug for Security Shields UI not going away when P key is pressed
+-Added in new objects to Editor Backend (Trees, Office, Shops, Retail)
+	-Storefront Buildings
+	-Retail Shelving
+	-Office
+	-Kiosks and Gazebos
+-Allow for hide/show object list box (Editor Backend)
+-Click on empty space and then select smart object, it would load window. Now fixed. (Editor Backend)
+-CTRL+D work correctly for speed (Editor Backend)
+-Add CTRL+S to save plot (Editor Backend)
+-Show DELETE KEY Update in bottom update as well when selecting new plot on left side of screen (Backend Editor)
+
+v0.17b4 (13-Aug-2022)
+-Gained shared hosting capability!
+-New music audio object (Can load one or more mp3 tracks from a remote location)
+-Smart Music Objects (Can move to the beat of any music based on music audio object)
+-Fix for reloads to make players/users appear in their last location instead of at the beginning of the plot
+-Fix for External URL link when OnClick for URL
+-Fix for VR Oculus Quest window UI issue bug
+
+v0.17b3 (10-Aug-2022)
+-Fixed forced world loading issue
+
+v0.17b2 (9-Aug-2022)
+-Fixed bug for certain objects which did not have a correct OnClick functionality
+-Fixed bug for Full Screen mode on PC not working correctly
+-Added Disconnection detection system which will regenerate player in room on disconnect
