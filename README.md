@@ -1,8 +1,5 @@
 <a name="readme-top"></a>
 
-[stars-url]
-[linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -56,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="git_repo_data/screenshot1.jpg" alt="Logo" width="800" height="183"> (https://www.chaarmi.com)
+<img src="git_repo_data/screenshot1.jpg" alt="Screenshot 1" width="800" height="600"> (https://www.chaarmi.com)
 
 Chaarmi Worlds is a fast and easy to use no-code web-based metaverse galaxy creation system. At its base, Chaarmi Worlds is an MMORPG style video game that sits ontop of the current internet. Each galaxy that is created adds a node to the system increasing the 3D internet or "metaverse" as we know it.
 
@@ -175,12 +172,12 @@ TUTORIALS ON USING CHAARMI WORLDS => https://www.chaarmi.com
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[product-screenshot2]
-[product-screenshot3]
-[product-screenshot4]
-[product-screenshot5]
-[product-screenshot6]
-[product-screenshot7]
+<img src="git_repo_data/screenshot2.jpg" alt="Screenshot 2" width="800" height="600">
+<img src="git_repo_data/screenshot3.jpg" alt="Screenshot 3" width="800" height="600">
+<img src="git_repo_data/screenshot4.jpg" alt="Screenshot 4" width="800" height="600">
+<img src="git_repo_data/screenshot5.jpg" alt="Screenshot 5" width="800" height="600">
+<img src="git_repo_data/screenshot6.jpg" alt="Screenshot 6" width="800" height="600">
+<img src="git_repo_data/screenshot7.jpg" alt="Screenshot 7" width="800" height="600">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
