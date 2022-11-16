@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
-[![Stargazers][stars-url]
-[![LinkedIn][linkedin-url]
+[stars-url]
+[linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[product-screenshot](https://www.chaarmi.com)
+<img src="git_repo_data/screenshot1.jpg" alt="Logo" width="800" height="183"> (https://www.chaarmi.com)
 
 Chaarmi Worlds is a fast and easy to use no-code web-based metaverse galaxy creation system. At its base, Chaarmi Worlds is an MMORPG style video game that sits ontop of the current internet. Each galaxy that is created adds a node to the system increasing the 3D internet or "metaverse" as we know it.
 
