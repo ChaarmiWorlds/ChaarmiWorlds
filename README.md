@@ -21,34 +21,8 @@
   </p>
 </div>
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
 # Chaarmi Worlds Metaverse Creation System
 ### Chaarmi Worlds v0.90b1
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -78,10 +52,9 @@ FREE EDITION:
 
 Chaarmi Worlds metaverse game is proudly powered by Unity 3D!
 
-* [![Unity.com]][Unity-url]
+* [Unity-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Installation
@@ -169,8 +142,8 @@ TUTORIALS ON USING CHAARMI WORLDS => https://www.chaarmi.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- SCREENSHOT EXAMPLES -->
+## Screenshots
 
 <img src="git_repo_data/screenshot2.jpg" alt="Screenshot 2" width="800">
 <img src="git_repo_data/screenshot3.jpg" alt="Screenshot 3" width="800">
@@ -196,11 +169,4 @@ Chaarmi Worlds Support Email - contact@chaarmi.com
 [linkedin-url]: https://www.linkedin.com/in/abhinavnavgupta/
 [stars-url]: https://github.com/ChaarmiWorlds/ChaarmiWorlds/stargazers
 [Unity-url]: https://www.unity.com/
-[product-screenshot1]: git_repo_data/screenshot1.jpg
-[product-screenshot2]: git_repo_data/screenshot2.jpg
-[product-screenshot3]: git_repo_data/screenshot3.jpg
-[product-screenshot4]: git_repo_data/screenshot4.jpg
-[product-screenshot5]: git_repo_data/screenshot5.jpg
-[product-screenshot6]: git_repo_data/screenshot6.jpg
-[product-screenshot7]: git_repo_data/screenshot7.jpg
 
