@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ChaarmiWorlds/ChaarmiWorlds">
-    <img src="git_repo_data/chaarmi_git.jpg" alt="Logo" width="800" height="183">
+    <img src="git_repo_data/chaarmi_git.jpg" alt="Logo" width="800">
   </a>
 
   <h3 align="center">Chaarmi Worlds Metaverse Creation System</h3>
@@ -42,9 +42,9 @@ Why Get Chaarmi Worlds?:
 * AVATARS: High quality avatar system powered by Ready Player Me
 
 FREE EDITION:
--This edition is the FREE edition base. 
--You get TWO plots of land to use (Specifically genesis and ryina)
--To get more features and functionality please purchase a monthly license for a low monthly fee by visiting https://www.chaarmi.com
+* This edition is the FREE edition base. 
+* You get TWO plots of land to use (Specifically genesis and ryina)
+* To get more features and functionality please purchase a monthly license for a low monthly fee by visiting https://www.chaarmi.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
