@@ -22,7 +22,7 @@
 </div>
 
 # Chaarmi Worlds Metaverse Creation System
-### Chaarmi Worlds v0.90b1
+### Chaarmi Worlds v0.91b1
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -44,6 +44,7 @@ Why Get Chaarmi Worlds?:
 FREE EDITION:
 * This edition is the FREE edition base. 
 * You get TWO plots of land to use (Specifically genesis and ryina)
+* You get only up to 4 users at a time for multiplayer access (Pro gets you maximum user capability)
 * To get more features and functionality please purchase a monthly license for a low monthly fee by visiting https://www.chaarmi.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
