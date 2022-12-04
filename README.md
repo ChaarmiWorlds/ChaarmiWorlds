@@ -58,6 +58,9 @@ Chaarmi Worlds metaverse game is proudly powered by Unity 3D!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Disclaimers
+
+MiniScript now comes built into Chaarmi Worlds. It is a low-code open-source system that is still under development and subject to ongoing changes. You can learn more about MiniScript by visitng https://www.miniscript.org.
 
 ### Installation
 
