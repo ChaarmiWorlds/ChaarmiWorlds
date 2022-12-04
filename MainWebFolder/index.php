@@ -4,7 +4,6 @@ header('Access-Control-Allow-Origin: *');
 require("../SendGrid/sendgrid-php.php");
 include("../db_connect_info/db.php");
 
-
 date_default_timezone_set('America/New_York');
 
 // Get PlotID 
@@ -394,3 +393,5 @@ else
 
 }
 
+
+?>

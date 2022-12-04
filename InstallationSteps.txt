@@ -5,12 +5,40 @@ Website: www.Chaarmi.com
 If you want our team to setup the system our setup fee is $300 USD and takes between 1-2 hours.
 Please visit our website or email us to book an appointment and we would be happy to set you up.
 
-CHAARMI CLOUD:
-1. Go to your Domain Name Provider
-2. Add a new "A" record called metaverse and point it at the IP address we assign (A new IP address will be sent to you via email)
-3. Send us your new domain name (Ex. https://metaverse.YOUR_DOMAIN.EXT) by emailing us at contact@chaarmi.com
-4. Within 24 hours of reciving your new domain name your Chaarmi Cloud installation will be setup.
-NOTE: We do the updates for you so you always have the latest edition of Chaarmi Worlds up and running :)
+BEFORE INSTALLATION STEPS (Once You Have An IP):
+1. Obtain the IP of your new server that you will be using
+2. Go to your Domain Name Provider
+3. Add a new "A" record called metaverse and point it at the IP address
+4. Wait up to 24 hours (Depending on the host) for your metaverse galaxy to recognize your new subdomain as follows:
+https://metaverse.YOUR_DOMAIN.EXT
+5. Setup a new SSL for your new metaverse URL name using any SSL system you wish
+
+INSTALLATION STEPS:
+1. Please make sure you have setup a web server with the following =>
+	-A SUBDOMAIN on an SSL HTTPS connection with the term metaverse:
+	https://metaverse.YOUR_DOMAIN.EXT
+	-PHP
+	-MySQL (Obtain the credentials => Username, Password, main DB Name)
+	-PHPMyAdmin
+2. Locate your HTTP or Web folder, make sure it is empty and copy all the files in the MainWebFolder to that folder
+3. Outside your HTTP or Web folder copy over the SendGrid folder and make sure it is named SendGrid
+4. Also Outside your HTTP or Web folder please create a folder named db_connect_info
+5. Run the install.php script and follow the instructions
+6. Upon completion a new db.ini file will be created. Copy this file into your db_connect_info folder
+7. Test the installation and make sure everything is running by visiting https://metaverse.YOUR_DOMAIN.EXT
+8. Delete the install.php file
+9. Once you get everything setup you should be able to visit https://metaverse.YOUR_DOMAIN.EXT and have a working experience base. Now go to the
+next part and create your first plot of land!
+
+CREATE YOUR FIRST PLOT OF LAND - THE GENESIS PLOT:
+1. Visit https://metaverse.YOUR_DOMAIN.EXT/my-admin/
+2. Login with the new admin user you created
+3. In the view you should see your metaverse stats and at the top menu select Plots
+4. Enter the plot name => genesis (all in lowercase)
+5. On the left side you should see your new plot, click on it and let Chaarmi Worlds load
+6. Design your plot of land by simply grabbing objects from the list and throwing them in. Hit save!
+7. Now test out your land by visiting https://metaverse.YOUR_DOMAIN.EXT (This will always load the genesis plot as genesis is a specific key in the system)
+8. To load ADDITIONAL plots directly you can use the following format => https://metaverse.chaarmi.com/index.php?plot_id=YOUR_PLOT_ID
 
 CHAARMI SELF-HOSTED MINIMIMUM REQUIREMENTS:
 PHP 7.3.0 or Higher PHP required
@@ -28,44 +56,6 @@ Note: This set of steps is ONLY if you have already done an installation of Chaa
 4. You should be up and running (The data and system is all in your database, the rest should work)
 UPGRADE VIDEO => https://youtu.be/77SHAIbxDnI
 
-INSTALLATION STEPS:
-1. Please make sure you have setup a web server with the following =>
-	-A SUBDOMAIN on an SSL HTTPS connection with the term metaverse:
-	https://metaverse.YOUR_DOMAIN.EXT
-	-PHP
-	-MySQL (Obtain the credentials => Username, Password, main DB Name)
-	-PHPMyAdmin
-	-Follow the Chaarmi Database Setup file to setup your Database Tables
-2. Locate your HTTP or Web folder, make sure it is empty and copy all the files in the MainWebFolder to that folder
-3. Outside your HTTP or Web folder copy over the SendGrid folder and make sure it is named SendGrid
-4. Open up the db_connect_info folder on your computer system before uploading and edit the db.php file. Specifically you will need the following values:
-	-Edit the first line and put Your database Username, Password and Database Name which you obtained earlier
-	-Generate a random key of 10 characters using only letters and numbers
-	-Generate a random key of 18 characters using only letters and numbers
-	-Visit SendGrid (SendGrid.com) and generate a new key by going to the settings=>api section and then creating a new key. Make sure the key is for Mail only.
-	-Visit Photon (https://www.photonengine.com/) and generate two keys, one for Photon Realtime and one for Photon Voice. Place those keys there.
-	-Await your Chaarmi License Key (It should arrive in your email after you make your first payment from Chaarmi.com). It can take our team up to 24-48 hours
-	after your payment to generate the key, please be patient.
-5. Upload the entire db_connect_info folder outside the HTTP or Web folder
-6. Setup your ADMIN user by opening up the MainWebFolder/my-admin/aes_generator_temp.php file and comment out and edit the echo line.
-7. Upload this temp file to your my-admin section and visit it in the browser https://metaverse.YOUR_DOMAIN.EXT/my-admin/aes_generator_temp.php and
-then copy the resulting SQL statement.
-8. Open your PHPMyAdmin console and in the SQL command tab paste the command and run it to generate your admin user
-NOTE: You can always use the file to manually add in various users or items in the database as the database is encrypted. DO NOT LOSE YOUR
-db.php FILE OR KEY INFORMATION!! WITHOUT IT YOU CAN NEVER RECOVER YOUR DATABASE DATA!!!! Also keep it secret because if others have access to it
-they could in theory break your database and read everything inside it. This is why its kept outside the main folder so only YOU have access to it.
-9. Once you get everything setup you should be able to visit https://metaverse.YOUR_DOMAIN.EXT and have a working experience base. Now go to the
-next part and create your first plot of land!
-
-CREATE YOUR FIRST PLOT OF LAND - THE GENESIS PLOT:
-1. Visit https://metaverse.YOUR_DOMAIN.EXT/my-admin/
-2. Login with the new admin user you created
-3. In the view you should see your metaverse stats and at the top menu select Plots
-4. Enter the plot name => genesis (all in lowercase)
-5. On the left side you should see your new plot, click on it and let Chaarmi Worlds load
-6. Design your plot of land by simply grabbing objects from the list and throwing them in. Hit save!
-7. Now test out your land by visiting https://metaverse.YOUR_DOMAIN.EXT (This will always load the genesis plot as genesis is a specific key in the system)
-8. To load ADDITIONAL plots directly you can use the following format => https://metaverse.chaarmi.com/index.php?plot_id=YOUR_PLOT_ID
 
 CONGRATULATIONS! You are now ready to build out your own Chaarmi Metaverse Worlds and Galaxies!
 

@@ -1,3 +1,18 @@
+v0.91b1 (05-Dec-2022)
+(FEATURE) New Simplified Install Script for any server
+(FEATURE) Brand new object properties system
+(UPGRADE) Allow for objects to be Textured and Colored separately within smart object view
+(FEATURE) Brand new MiniScript Custom Coding System
+(UPGRADE) Additional Optimizations and Reduced overall file size more for faster download speeds
+(UPGRADE) Added PDF Files for MiniScript system into filesystem for easy access
+(UPGRADE) Added auto-generation of Chaarmi Worlds Custom MiniScript Functions for easy download
+(UPGRADE) Added new functions to Chaarmi Worlds Custom MiniScript: 
+		MoveObject(sObjectName, fX, fY, fZ)
+		RotateObject(sObjectName, fX, fY, fZ)
+		ScaleObject(sObjectName, fX, fY, fZ)
+(UPGRADE) Added new loading system that also works with old loading system for new MiniScript saving system
+(FEATURE) Droplet Integration with Digital Ocean bringing faster setup for Chaarmi Worlds Metaverse System
+
 v0.90b1 (16-Nov-2022)
 
 (FEATURE) FREE EDITION OF CHAARMI WORLDS NOW AVAILABLE!!!! Only two lands, genesis and ryina.

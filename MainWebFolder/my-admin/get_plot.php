@@ -4,6 +4,11 @@ include("../../db_connect_info/db.php");
 
 header('Access-Control-Allow-Origin: *');
 
+
+	//mysqli_report(MYSQLI_REPORT_ALL);
+	//error_reporting(E_ALL);
+	//ini_set('display_errors',1);
+
 //echo $_POST['user_id'];
 //echo $_POST['user_license'];
 
