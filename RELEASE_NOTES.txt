@@ -1,3 +1,18 @@
+v0.92b1 (27-Dec-2022)
+
+(UPGRADE) Added mesh colliders to custom glb/gLTF Imported models
+(FEATURE) In backend editor via MiniScript, being able to change Light color (Directional and Point)
+(FEATURE) Added mesh collider to custom objects that come in via gltf to Chaarmi (Backend and Frontend)
+(BUG FIX) Some textures saved on model do not show up in frontend
+(BUG FIX) Removed excessive debug logs
+(BUG FIX) Figure out why Chaarmi MiniScript functions are NOT showing up when you hit the QUESTION MARK menu button!
+(UPGRADE) Update on Avatar name size make it smaller
+(UPGRADE) Update to make 16:9 ratio on web view so that view is always proportion for user and centered on view
+(FEATURE) Add Plot locking base capability
+(FEATURE) Galaxy to Galaxy plot jumps
+(FEATURE) Added new MiniScript functions, openURL, playSound and plotJump
+(UPGRADE) Added new particle effect objects in objects list in backend editor
+
 v0.91b1 (05-Dec-2022)
 (FEATURE) New Simplified Install Script for any server
 (FEATURE) Brand new object properties system

@@ -151,7 +151,8 @@ if ($valid_license == "active")
 					<div id="unity-fullscreen-button" style="position:absolute; z-index: 9997;"></div>
 				  </div>
 				<button id="entervr" style="width: 800px; height: 100px; display: none;  margin: 0 auto;" value="Enter VR" enabled>Enter VR Mode (Click Here)</button>
-				  <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
+				  <!--<canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>-->
+				  <canvas id="unity-canvas" style ="width: min(calc(100vh * (16/9)), 100vw);max-width: 100%;max-height: 100%; height: auto;aspect-ratio: 16/9; margin: auto; display: block;"></canvas>
 				</div>
 				  <div id="unity-loading-bar">					
 					<div id="unity-logo"></div>
