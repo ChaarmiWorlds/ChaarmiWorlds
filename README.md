@@ -22,7 +22,7 @@
 </div>
 
 # Chaarmi Worlds Metaverse Creation System
-### Chaarmi Worlds v0.91b1
+### Chaarmi Worlds v0.92b1
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
